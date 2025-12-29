@@ -39,10 +39,7 @@
 ### 1. 环境准备
 确保你的 Python 版本 >= 3.10。
 
-```bash
-# 克隆项目
-git clone [https://github.com/your-username/mind-harbor.git](https://github.com/your-username/mind-harbor.git)
-cd mind-harbor
 
 # 安装依赖
+
 pip install -r requirements.txt
