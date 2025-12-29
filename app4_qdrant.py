@@ -170,7 +170,7 @@ with st.sidebar:
         if st.button("进入咨询室"):
             if username_input:
                 st.session_state['current_user'] = username_input
-                welcome_text = f"你好 {username_input}，我是你的AI心理伙伴。这里很安全，你可以畅所欲言。"
+                welcome_text = f"你好 {username_input}，我是你的AI心理伙伴Jasper。这里很安全，你可以畅所欲言。"
                 st.session_state['messages'] = [{"role": "assistant", "content": welcome_text}]
                 st.rerun()
     else:
@@ -491,3 +491,4 @@ with col2:
                 else:
 
                     st.error("保存失败。")
+
