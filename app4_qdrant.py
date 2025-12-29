@@ -427,7 +427,7 @@ def process_conversation_turn(user_input):
 # ==========================================
 # 8. UI 主渲染区
 # ==========================================
-st.title("🌿 心灵港湾")
+st.title("🌿 心灵港湾|Mind Harbour")
 st.caption(f"Mind Harbor | 当前来访者: {st.session_state['current_user']}")
 
 chat_container = st.container()
@@ -491,4 +491,5 @@ with col2:
                 else:
 
                     st.error("保存失败。")
+
 
